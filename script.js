@@ -70,4 +70,10 @@ function timer() {
     minute = 0;
     getMinute.innerHTML = "0" + minute;
   }
+  if(hour < 10){
+    getHour.innerHTML = "0" + hour;
+  }
+  if(hour >=10){
+    getHour.innerHTML = hour;
+  }
 }
