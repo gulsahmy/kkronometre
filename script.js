@@ -38,7 +38,7 @@ function timer() {
   if (tens >= 10) {
     getTens.innerHTML = tens;
   }
-  if (tens > 59) {
+  if (tens > 99) {
     second++;
     getSeconds.innerHTML = "0" + second;
     tens = 0;
