@@ -20,10 +20,12 @@ btnStop.addEventListener("click", () => {
   clearInterval(interval);
 });
 btnReset.addEventListener("click", () => {
+  clearInterval(interval); 
   tens = 0;
   second = 0;
   minute = 0;
   hour = 0;
+
   getHour.innerHTML = "00";
   getMinute.innerHTML = "00";
   getSeconds.innerHTML = "00";
